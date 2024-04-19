@@ -1,0 +1,20 @@
+html{
+    overflow-x: hidden;
+}
+main{
+    min-height: 80vh;
+    overflow-x: hidden;
+    background-color: black;
+}
+.movies-grid {
+    background-image: url('../asset/logo/bg1.jpg');
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    flex-direction: column;
+}

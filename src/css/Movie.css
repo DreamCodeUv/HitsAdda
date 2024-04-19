@@ -1,0 +1,138 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #35bbcd70;
+    width: 29vw;
+    height: 30rem;
+    margin: 1rem;
+    min-width: 20rem;
+    border-radius: 13px;
+}
+/* .card :hover{
+    background-color: #35bbcdd7;
+} */
+.image-box {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.image-poster {
+    height: 100%;
+}
+img.poster {
+    height: 100%;
+    width: 100%;
+}
+img.movie-poster {
+    width: 100%;
+}
+.reffrence {
+    padding-left: 6px;
+    padding-top: 1rem;
+    color: aliceblue;
+}
+.title{
+    margin-top: 1rem;
+}
+h1.title {
+    font-size: 25px;
+}
+p.title {
+    font-size: 19px;
+}
+h2.title {
+    font-size: 23px;
+}
+h3.title {
+    font-size: 16px;
+}
+
+.download-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+button.downl {
+    height: 1.8rem;
+    width: 7rem;
+    background-color: #0358ff;
+    border-radius: 10px;
+    cursor: pointer;
+    color: antiquewhite;
+    font-size: 15px;
+    border: indianred;
+    margin-bottom: 1rem;
+}
+.downl:hover {
+    background-color: darkmagenta;
+}
+
+/* movie box seo */
+
+.movie-seo-box {
+    padding: 2rem;
+}
+.movie-box {
+    background-color: #00000082;
+    margin-top: 1rem;
+    color: white;
+    font-size: 13px;
+    border-radius: 6px;
+}
+
+/* Movie SelectM */
+
+.movies-grid {
+    background-image: url(http://localhost:3000/static/media/bg1.096215d….jpg);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    flex-direction: column;
+}
+.movie-container {
+    display: flex;
+    width: 65vw;
+    margin-top: 5rem;
+    border: 2px solid;
+    background-color: #0000009e;
+}
+.movie-top {
+    width: 100%;
+}
+.movie-top {
+    width: 44%;
+}
+.reffrence {
+    padding-left: 6px;
+    padding-top: 1rem;
+    color: aliceblue;
+}
+
+
+/* responsive  Movie SelectM */
+
+@media(max-width:931px){
+    .movie-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .movie-top {
+        width: 60%;
+    }
+    img.movie-poster {
+        width: 100%;
+    }
+    .reffrence {
+        padding-left: 6px;
+        padding-top: 1rem;
+        color: aliceblue;
+        padding-bottom: 2rem;
+    }
+}
