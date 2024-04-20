@@ -29,6 +29,7 @@ const MovieCard = () => {
   return(
   Moviedb.map((value)=>{
     return(
+      <>
    <div key={value.sno}> 
    { value.hits.map((movie)=>{
       return (
@@ -55,6 +56,8 @@ const MovieCard = () => {
       )
     })}
     </div>
+    <script async src="https://js.onclckmn.com/static/onclicka.js" data-admpid="174713"></script>
+    </>
   )
   })
 );
