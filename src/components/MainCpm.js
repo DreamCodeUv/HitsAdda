@@ -1,17 +1,15 @@
 import React from 'react'
 import MovieCard from './MovieCard'
 import '../css/Main.css'
-import SelectM from './SelectM'
+import FilterBox from './FilterBox'
 
 const MainCpm = () => {
   return (
     <>
       <main>
         {/* <MovieCard /> */}
-        <div className="movies-grid">
+        {/* <FilterBox /> */}
           <MovieCard />
-          {/* <SelectM /> */}
-        </div>
       </main>
     </>
   )

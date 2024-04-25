@@ -5,7 +5,6 @@ import Footer from './components/Footer'
 import MainCpm from './components/MainCpm'
 import Contact from './components/Contact'
 import SelectM from './components/SelectM'
-import Frame from './components/Frame'
 const App = () => (
 
    <>
@@ -15,7 +14,7 @@ const App = () => (
        <Routes>
          <Route path='/' element={<MainCpm />} />
          <Route path='/contact' element={<Contact />} />
-         Select component development phase
+         {/* Select component development phase */}
          <Route path='/selectm' element={<SelectM />} />
        </Routes>
        <Footer />

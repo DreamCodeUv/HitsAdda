@@ -1,72 +1,68 @@
-.card {
-    display: flex;
-    flex-direction: column;
-    background-color: #35bbcd70;
-    width: 29vw;
-    height: 30rem;
-    margin: 1rem;
-    min-width: 20rem;
-    border-radius: 13px;
+
+/* movie card */
+
+main{
+    background-image: url('../asset/logo/bg1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
-/* .card :hover{
-    background-color: #35bbcdd7;
-} */
-.image-box {
-    width: 100%;
-    height: 50%;
+
+.movies-grid {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #425ad491;
+    color: white;
+    width: 22rem;
+    margin: 2rem;
+    border-radius: 6px;
     overflow: hidden;
 }
 
-.image-poster {
-    height: 100%;
-}
-img.poster {
-    height: 100%;
+.pos-box {
     width: 100%;
 }
-img.movie-poster {
+img.movie-image {
     width: 100%;
-}
-.reffrence {
-    padding-left: 6px;
-    padding-top: 1rem;
-    color: aliceblue;
-}
-.title{
-    margin-top: 1rem;
-}
-h1.title {
-    font-size: 25px;
-}
-p.title {
-    font-size: 19px;
-}
-h2.title {
-    font-size: 23px;
-}
-h3.title {
-    font-size: 16px;
 }
 
-.download-btn {
+.detail-box {
+    padding: 1rem;
+}
+
+h1.title {
+    font-size: 25px;
+    padding-bottom: 0.2rem;
+}
+
+.dowlaod {
+    width: 100%;
+    /* height: 2rem; */
     display: flex;
     justify-content: center;
     margin-top: 1rem;
-}
-button.downl {
-    height: 1.8rem;
-    width: 7rem;
-    background-color: #0358ff;
-    border-radius: 10px;
-    cursor: pointer;
-    color: antiquewhite;
-    font-size: 15px;
-    border: indianred;
     margin-bottom: 1rem;
 }
-.downl:hover {
-    background-color: darkmagenta;
-}
+
+button.download-btn {
+        height: 1.7rem;
+        width: 5.5rem;
+        font-size: 17px;
+        background-color: blueviolet;
+        color: antiquewhite;
+        border: 2px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    button.download-btn:hover{
+        background-color: black;
+    }
 
 /* movie box seo */
 
@@ -83,18 +79,6 @@ button.downl {
 
 /* Movie SelectM */
 
-.movies-grid {
-    background-image: url(http://localhost:3000/static/media/bg1.096215d….jpg);
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 90vh;
-    flex-direction: column;
-}
 .movie-container {
     display: flex;
     width: 65vw;
